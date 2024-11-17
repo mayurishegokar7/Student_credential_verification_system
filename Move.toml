@@ -1,0 +1,15 @@
+[package]
+name = "student_credential_verification_system"
+version = "1.0.0"
+authors = []
+
+[addresses]
+StudentCredentialVerificationSystem = '0xfff82198d21ace2743ee58883a46e948dcf369e070e6081355086848f66421e3'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
